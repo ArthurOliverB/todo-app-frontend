@@ -1,0 +1,32 @@
+
+body {
+    padding: 30px;
+    background-color: #F8F9FB;
+    font-family: 'Roboto', sans-serif;
+}
+.todo {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: 400;
+    color: white;
+}
+
+.date {
+    background-color: #0087D8;
+    border-radius: 35px;
+    width: 11%;
+    text-align: center;
+    margin-right: 30px;
+}

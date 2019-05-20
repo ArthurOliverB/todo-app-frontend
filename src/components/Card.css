@@ -1,0 +1,164 @@
+.card-container {
+    height: 140px;
+    width: 300px;
+    background-color:#fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 16px;
+    transition: all .2s ease-in-out;
+}
+
+.card-container:hover {
+    height: 140px;
+    width: 300px;
+    background-color:#fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    transform: scale(1.05)
+}
+
+.card-container.static:hover {
+    height: 140px;
+    width: 300px;
+    background-color:#fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    transform: scale(1)
+}
+
+.tag {
+    height: 100%;
+    width: 4%;
+    border-radius: 15px 0px 0px 15px;
+    -moz-border-radius: 15px 0px 0px 15px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    border: 0px solid #000000;
+}
+
+.card-info {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.card-header > input, .card-header.editable > input{
+    font-weight: 700;
+    font-size: 24px;
+    color: #2F5081
+}
+.card-content > input, .card-content.editable > input {
+    color: #9EA5AF;
+}
+
+.header-wrapper, .header-wrapper.editable {
+    display: flex;
+    height: 50%;
+}
+input {
+    margin-top: 20px;
+}  
+
+.content-wrapper, .content-wrapper.editable {
+    display: flex;
+    height: 50%;
+}
+
+.card-actions {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-actions {
+    padding: 16px 0px 16px 0px;
+}
+.card-actions button {
+    border: none;
+    background-color: transparent;
+    height: 32px;
+    width: 32px;
+    background-position: 50%;        
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: all .2s ease-in-out;  
+}
+
+.card-actions button:hover {
+    border: none;
+    background-color: transparent;
+    background-position: 50%;
+
+}
+
+.done {
+    background-image: url('../assets/plus-i.png');
+}
+.done:hover {
+    background-image: url('../assets/plus-a.png');
+}
+.edit {
+    background-image: url('../assets/pencil-i.png');
+}
+.edit:hover {
+    background-image: url('../assets/pencil-a.png');
+}
+.delete {
+    background-image: url('../assets/cancel-i.png');
+}
+.delete:hover {
+    background-image: url('../assets/cancel-a.png');
+}
+
+.success {
+background-color: #51D888;            
+}
+.warning {
+    background-color: #FFBE3D;
+}
+.failure {
+    background-color: #F9493F;
+}
+.event {
+    background-color: #0F51F5;
+}
+
+
+
+
+
+
+
+
+
+
+input {
+    border: none;
+    outline: none
+}
+
+input.title {
+    font-size: 20px;
+    width: 80%;
+}
+input.subtitle {
+    font-size: 16px;
+    width: 100%;
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+    transition: all .2s ease-in-out;  
+    outline: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+}

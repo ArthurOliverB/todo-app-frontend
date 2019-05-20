@@ -1,4 +1,4 @@
 #.gitignore
-src
-public
+# src
+# public
 node_modules
