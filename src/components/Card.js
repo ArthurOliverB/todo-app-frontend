@@ -184,9 +184,9 @@ class Card extends React.Component {
                     </div>
                 </div>
                 <div className="card-actions">
-                    <button className="done"></button>
+                    <button className="done" onClick={e => this.deleteTask(e)}>   </button>
                     <button className="edit" onClick={ e => this.makeEditable(e)}></button>
-                    <button className="delete" onClick={e => this.deleteTask(e)}></button>
+                    <button className="delete" onClick={e => this.deleteTask(e)}> </button>
                 </div>
             </div>
         )
